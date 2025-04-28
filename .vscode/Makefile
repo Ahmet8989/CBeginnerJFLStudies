@@ -7,17 +7,30 @@ CC = gcc
 CFLAGS = -Wall -IHeaders  # Add -IHeaders to specify the directory for header files
 
 # Source files (all .c files in the sources directory)
-SRCS = $(wildcard sources/*.c)
+SRCS = $(sources/*.c)
+
+OBJS = $(sources/*.o)
 
 # Output binary name
-TARGET = main.exe
+#TARGET = main
 
 # Build rule
-all: $(TARGET)
+#all: $(TARGET)
 
-$(TARGET): $(SRCS)
-	$(CC) $(CFLAGS) $(SRCS) -o $(TARGET)
+TARGET = myTarget$(TARGET): $(OBJS)
+	$(CC) $(CFLAGS) $(OBJS) -o $(TARGET)
 
+$(OBJ):$(SRC)
 # Clean rule to delete build output
 clean:
 	del $(TARGET) 2>nul || true
+
+
+# SRC = mod1.c mo5.c mod6.c main.c 
+
+# OBJ = mod1.o mod5.o mod6.o main.o 
+
+#PROG = myProgram$(PROG):$(OBJ)
+#	gcc $(OBJ) -o $(PROG)
+
+#$(OBJ):$(SRC)
