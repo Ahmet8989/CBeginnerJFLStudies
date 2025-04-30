@@ -3,12 +3,17 @@
 #include "../Headers/other.h"
 
 int main() {
-    printf("%d\n", getFavoriteNumber());
-    testEnumSection();
+    //printf("%d\n", getFavoriteNumber());
     printf("-------------\n");
-    testFormatSpecifierSection();
+    //testEnumSection();
     printf("-------------\n");
-    rectangleDemo();
+    //testFormatSpecifierSection();
     printf("-------------\n");
+    //rectangleDemo();
+    printf("-------------\n");
+    //testOperatorsSsection();
+    printf("-------------\n");
+    convertMinutesToYears();
+    printf("----------------\n");
     return 0;
 }

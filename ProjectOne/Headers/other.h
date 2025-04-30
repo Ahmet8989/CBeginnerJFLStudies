@@ -5,5 +5,7 @@ int getFavoriteNumber(void);
 void testEnumSection();
 void testFormatSpecifierSection();
 void rectangleDemo();
+void testOperatorsSsection();
+void convertMinutesToYears();
 
 #endif 
