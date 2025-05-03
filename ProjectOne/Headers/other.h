@@ -7,5 +7,6 @@ void testFormatSpecifierSection();
 void rectangleDemo();
 void testOperatorsSsection();
 void convertMinutesToYears();
+void testBitwiseOperatorsSection();
 
 #endif 
