@@ -15,7 +15,9 @@ int main() {
     printf("-------------\n");
     //convertMinutesToYears();
     printf("----------------\n");
-    testBitwiseOperatorsSection();
+    //testBitwiseOperatorsSection();
+    printf("----------------\n");
+    testCastingOperatorsSection();
     printf("----------------\n");
     return 0;
 }

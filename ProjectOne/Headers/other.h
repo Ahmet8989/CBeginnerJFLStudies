@@ -8,5 +8,6 @@ void rectangleDemo();
 void testOperatorsSsection();
 void convertMinutesToYears();
 void testBitwiseOperatorsSection();
+void testCastingOperatorsSection();
 
 #endif 
