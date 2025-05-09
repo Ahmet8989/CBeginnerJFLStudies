@@ -18,5 +18,12 @@ void testControlFlowExamplesD(int number5);
 void testControlFlowExamplesE(int number5);
 void testControlFlowExamplesF(int numberOfHours);
 void testControlFlowExamplesG(enum Weekday todayEntered);
+void testForWhileDoWhileLoopExamples();
+void testForWhileDoWhileLoopExamplesB();
+void testForWhileDoWhileLoopExamplesC();
+void testForWhileDoWhileLoopExamplesD();
+void testForWhileDoWhileLoopExamplesE();
+void testForWhileDoWhileLoopExamplesF();
+void testForWhileDoWhileLoopExamplesG();
 
 #endif 
