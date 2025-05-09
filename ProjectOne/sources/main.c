@@ -17,7 +17,21 @@ int main() {
     printf("----------------\n");
     //testBitwiseOperatorsSection();
     printf("----------------\n");
-    testCastingOperatorsSection();
+    //testCastingOperatorsSection();
+    printf("----------------\n");
+    //testControlFlowExamples();
+    printf("----------------\n");
+    //testControlFlowExamplesB();
+    printf("----------------\n");
+    //testControlFlowExamplesC(95);
+    printf("----------------\n");
+    //testControlFlowExamplesD(95);
+    printf("----------------\n"); 
+    //testControlFlowExamplesE(95);
+    printf("----------------\n");
+    testControlFlowExamplesF(50);
+    printf("----------------\n");
+    testControlFlowExamplesG(Tuesday);
     printf("----------------\n");
     return 0;
 }
